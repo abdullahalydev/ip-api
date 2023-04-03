@@ -1,5 +1,5 @@
 function middleware(req, res, next) {
-    const ip = "154.237.25.39";
+    const ip = req.ip;
     req.lookup = {}
     req.lookup.ip = ip;
     next();
