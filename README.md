@@ -6,42 +6,8 @@ ByteIP is a completely free online service that allows users to retrieve informa
 This information can be used for various purposes, such as analyzing internet traffic, and improving user experience on websites.
 
 # Documentation
+[Documentation Website](https://byte-studio.gitbook.io/ip-api/)
 
-
-## detect endpoint
-```
-GET /detect
-```
-auto detect ip and get all information of ip
-### Queries
-| Name  | Description | Example |
-| ------- | ------- | ------- |
-| target  | target specify property of ip information  | ?target=city |
-
-<br>
-
-## lookup endpoint
-```
-GET /lookup/{{ ip }}
-```
-get all information of ip
-### Queries
-| Name  | Description | Example |
-| ------- | ------- | ------- |
-| target  | target specify property of ip information  | ?target=city |
-
-<br>
-
-## condition endpoint
-```
-GET /condition/{{ ip }}/has/{{ target }}/equal/{{ value }}
-```
-target is compared to the value and returns true or false
-
-
-
-# Library
-Soon
 
 # Credits
 - Bo_Dy#0941 - Developers Manager
