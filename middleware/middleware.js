@@ -33,22 +33,22 @@ const mwArray = [
     city,
     cityCode,
     timezone,
-    // capitalCity,
-    // religion,
-    // worldRegion,
-    // currency,
+    capitalCity,
+    religion,
+    worldRegion,
+    currency,
     currencyCode,
     domain,
-    // coordinates,
+    coordinates,
     governmentType,
-    // isoNumeric,
-    // languages,
+    isoNumeric,
+    languages,
     barcodePrefix,
     callingCode,
     longitude,
     latitude,
-    // area,
-    // eu
+    area,
+    eu
 ]
 
 module.exports = mwArray
